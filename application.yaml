@@ -6,5 +6,5 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://host.docker.internal:8761/eureka
+      defaultZone: http://serviceregistry:8761/eureka
       # defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka} If you want to do it without docker
